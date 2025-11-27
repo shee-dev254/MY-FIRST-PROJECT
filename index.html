@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evan — Professional Portfolio</title>
+    <meta name="description" content="Evan — Web developer, freelancer, content creator, marketer, designer, tutor, analyst.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Evan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero py-5 text-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold" data-aos="fade-right">Hi, I'm Evan</h1>
+            <p class="lead mb-4" data-aos="fade-up">I build modern web experiences and help brands grow online — web dev, design, marketing, content, tutoring, and data analysis.</p>
+            <div class="d-flex gap-2" data-aos="fade-up" data-aos-delay="150">
+              <a class="btn btn-primary btn-lg" href="#contact">Hire Me</a>
+              <a id="viewWorkBtn" class="btn btn-outline-light btn-lg" href="#portfolio">View Work</a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center mt-4 mt-lg-0" data-aos="zoom-in">
+            <img src="https://via.placeholder.com/280x380/4f46e5/ffffff?text=Your+Photo" alt="Evan" class="profile-photo shadow-lg" id="profileImg">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="py-5">
+        <div class="container">
+          <div class="row gy-4 align-items-center">
+            <div class="col-md-6" data-aos="fade-up">
+              <h2>About Me</h2>
+              <p>I’m a multi-disciplinary freelancer with experience in web development, content creation, social media management, online marketing, graphic design, tutoring, research and data analysis. I deliver clean, responsive, and conversion-focused work.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><strong>Location:</strong> Remote</li>
+                <li class="list-inline-item"><strong>Availability:</strong> Open for projects</li>
+              </ul>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="progress-group mb-3">
+                <div class="d-flex justify-content-between"><span>Web Development</span><span>95%</span></div>
+                <div class="progress"><div class="progress-bar" style="width:95%"></div></div>
+              </div>
+              <div class="progress-group mb-3">
+                <div class="d-flex justify-content-between"><span>Design & Branding</span><span>88%</span></div>
+                <div class="progress"><div class="progress-bar bg-success" style="width:88%"></div></div>
+              </div>
+              <div class="progress-group mb-3">
+                <div class="d-flex justify-content-between"><span>Marketing & Content</span><span>92%</span></div>
+                <div class="progress"><div class="progress-bar bg-info" style="width:92%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-4" data-aos="fade-up">Services</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="flip-left">
+              <div class="card h-100 shadow-sm service-card">
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">Responsive websites, SPA, performance optimization, and CMS integrations.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="100">
+              <div class="card h-100 shadow-sm service-card">
+                <div class="card-body">
+                  <h5 class="card-title">Content & Social</h5>
+                  <p class="card-text">Content strategy, copywriting, social media management and growth tactics.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="200">
+              <div class="card h-100 shadow-sm service-card">
+                <div class="card-body">
+                  <h5 class="card-title">Design & Branding</h5>
+                  <p class="card-text">Logos, collateral, social graphics, and visual identity systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="py-5">
+        <div class="container">
+          <h2 class="mb-4" data-aos="fade-up">Portfolio</h2>
+          <div class="d-flex gap-2 mb-4" data-aos="fade-up" data-aos-delay="50">
+            <button class="btn btn-outline-primary btn-sm filter-btn active" data-filter="all">All</button>
+            <button class="btn btn-outline-primary btn-sm filter-btn" data-filter="web">Web</button>
+            <button class="btn btn-outline-primary btn-sm filter-btn" data-filter="design">Design</button>
+            <button class="btn btn-outline-primary btn-sm filter-btn" data-filter="content">Content</button>
+          </div>
+          <div class="row g-4" id="projects">
+            <!-- Projects are loaded dynamically from `data/projects.json` -->
+          </div>
+          <!-- Modal container; modals are injected here for each project -->
+          <div id="projectModals"></div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-4" data-aos="fade-up">Testimonials</h2>
+          <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-right">
+              <div class="p-4 shadow-sm bg-white rounded">
+                <p>"Evan delivered our website on time and improved conversions by 30%. Highly recommend."</p>
+                <p class="mb-0"><strong>— Cymone KE</strong></p>
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <div class="p-4 shadow-sm bg-white rounded">
+                <p>"Creative, reliable, and communicative — great design and content work."</p>
+                <p class="mb-0"><strong>—Mary Blezy</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="mb-4" data-aos="fade-up">Contact</h2>
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+              <form id="contactForm" class="shadow-sm p-4 rounded bg-white" method="POST">
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="_replyto" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <input type="hidden" id="contactSubject" name="_subject" value="New contact from portfolio">
+                <div class="d-flex gap-2 align-items-center">
+                  <button class="btn btn-primary" type="submit">Send</button>
+                  <div id="contactStatus" class="text-success small" style="display:none">Message sent ✓</div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-left">
+              <div>
+                <p class="mb-1"><strong>Email:</strong> <a href="achiengevans372@gmail.com">achiengevans372@gmail.com</a></p>
+                <p class="mb-1"><strong>Phone:</strong>0768082478</p>
+                <p class="mb-0"><strong>Availability:</strong> Open for freelance projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 bg-dark text-light">
+      <div class="container text-center small">© <span id="year"></span> Evan — All rights reserved • <a href="#" class="text-decoration-none text-light">Privacy</a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
